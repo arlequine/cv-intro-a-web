@@ -18,12 +18,21 @@ body {
 }
 .navbar a:hover {
   background-color: #023365;
+  border-radius: 15px;
   padding: 10px;
   color: #fff;
 }
 
 .title {
-  text-align: center
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 50px;
 }
 
 section {
@@ -31,6 +40,10 @@ section {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+
+section h2 {
+  color: #023365;
 }
 
 .trabajos, .info {
